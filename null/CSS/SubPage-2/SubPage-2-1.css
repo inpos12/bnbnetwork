@@ -1,0 +1,64 @@
+#Common_img .container-fluid {
+  background-image: url(/Web/Img/Subpage_img1111.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+#Section_1 {
+  margin: 80px 0;
+}
+a {
+  text-decoration: none;
+}
+#Section_1 .container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Section_1 .Company {
+  margin-bottom: 8px;
+}
+
+#Section_1 .Company h2 {
+  text-align: center;
+  color: black;
+  font-weight: 800;
+}
+#Section_1 .Company h4 {
+  text-align: center;
+  color: black;
+  font-weight: 800;
+}
+
+#Section_1 .button {
+  margin-top: 20px;
+  display: flex;
+}
+#Section_1 .col h5 {
+  font-weight: 800;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 80px;
+  text-align: center;
+  color: #14126f;
+  border-color: #14126f;
+}
+#Section_1 .button_active {
+  box-shadow: inset 0 0 17px -4px #14126f;
+}
+#Section_1 .button h5 {
+  margin: 0 40px;
+}
+/*  */
+#Section_2 #Row_1 h4 {
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#Section_2 #Row_1 {
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  padding: 50px 0;
+}

@@ -1,0 +1,114 @@
+/* Section1 */
+
+#Section_2_title {
+  margin-top: 120px;
+}
+#Section_2_title .col {
+  text-align: center;
+}
+#Section_2_title .title {
+  font-weight: 800;
+}
+#Section_2_title p {
+  font-weight: 600;
+}
+
+#Section_2 #Col {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 50px;
+  width: 600px;
+}
+
+#Section_2 #Col img {
+  width: 100%;
+  filter: drop-shadow(5px 7px 10px gray);
+}
+#Section_2 #Row_3 {
+  justify-content: center;
+}
+#Section_2 .button_box {
+  display: flex;
+  justify-content: center;
+}
+#Section_2 button {
+  margin-top: 30px;
+  padding: 10px 15px;
+  border-radius: 11px;
+  background-color: rgb(20, 18, 111);
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  border-width: 0;
+}
+
+/* Section_2 pc */
+#Section_2_pc .FlexBox {
+  margin: 150px 50px 0 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#Section_2_pc .StickyBox {
+  margin: 0;
+}
+#Section_2_pc .TextBox {
+  text-align: center;
+  position: sticky;
+  top: 50%;
+}
+#Section_2_pc .TextBox h2 {
+  font-weight: 800;
+}
+#Section_2_pc .TextBox h5 {
+  font-weight: 800;
+  color: #3b4859;
+}
+#Section_2_pc .TextBox button {
+  margin-top: 30px;
+  padding: 10px 15px;
+  border-radius: 11px;
+  background-color: rgb(20, 18, 111);
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  border-width: 0;
+}
+#Section_2_pc .ImgBox {
+  display: flex;
+  flex-direction: column;
+}
+#Section_2_pc .ImgBox img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #Section_2_pc .ImgBox img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  #Section_2 {
+    display: block;
+  }
+  #Section_2_title {
+    display: block;
+  }
+  #Section_2_pc {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  #Section_2 {
+    display: none;
+  }
+  #Section_2_title {
+    display: none;
+  }
+  #Section_2_pc {
+    display: block;
+  }
+}

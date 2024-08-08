@@ -1,0 +1,91 @@
+/* footer  공용*/
+#Footer {
+  margin-top: 100px;
+  background-color: #14126f;
+  padding: 50px 0 50px 0;
+
+  color: white;
+}
+#Footer .bold {
+  font-weight: 800;
+}
+#Footer p {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+#Footer .footer_flex_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#Footer .footer_flex {
+  display: flex;
+}
+#Footer .space-between {
+  justify-content: space-between;
+}
+#Footer .margin-left-10 {
+  margin-left: 10px;
+}
+#Footer .margin-right-10 {
+  margin-right: 10px;
+}
+
+/* Container */
+#Footer #Container {
+  display: flex;
+  justify-content: space-around;
+}
+/* Logo */
+#Footer .logo {
+  width: 376px;
+  height: 67px;
+  filter: brightness(63) hue-rotate(44deg);
+}
+
+#Footer .logo img {
+  width: 100%;
+}
+/* 라인 */
+
+#Footer #Row_1 {
+  flex-direction: column;
+}
+/* 메뉴 */
+#Footer .menu {
+  justify-content: flex-end;
+}
+#Footer .menu p {
+  margin-right: 50px;
+}
+#Footer .menu p:last-child {
+  margin-right: 0;
+}
+/*  메뉴하단 */
+#Footer .left_box {
+  margin-top: 50px;
+}
+
+#Footer .right_box {
+  margin-top: 50px;
+  margin-left: 70px; /* 반응형 마진0값수정 */
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+  #Footer p {
+    font-size: 8px;
+  }
+}
+@media (max-width: 991px) {
+  #Footer #Container {
+    display: block;
+  }
+  #Footer .right_box {
+    margin-left: 0;
+  }
+  #Footer .menu {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,22 @@
+/* Section3 */
+#Section_3 {
+  margin-top: 120px;
+  color: white;
+  background-color: #14126f;
+}
+#Section_3 #Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Section_3 #Row {
+  margin: 30px 0;
+}
+
+#Section_3 h2 {
+  font-weight: 800;
+}
+#Section_3 p {
+  font-weight: 300;
+  margin: 0;
+}

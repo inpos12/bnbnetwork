@@ -1,0 +1,14 @@
+/* Section_6 */
+#Section_6 {
+  margin-top: 120px;
+}
+#Section_6 .col {
+  text-align: center;
+}
+#Section_6 .col > .title {
+  font-weight: 800;
+}
+#Section_6 .col > p {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}

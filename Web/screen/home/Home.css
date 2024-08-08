@@ -1,0 +1,31 @@
+#daum_map {
+  position: relative;
+}
+
+#daum_map .daum_map_box {
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+}
+#daum_map .daum_map_box h4 {
+  font-weight: 800;
+}
+#daum_map .daum_map_address {
+  padding: 30px 50px;
+  background-color: #14126f;
+  width: 50%;
+  color: white;
+  border-radius: 30px;
+}
+#daum_map .daum_map_tel {
+  display: flex;
+  flex-wrap: wrap;
+}
+#daum_map .daum_map_tel h4:nth-child(1) {
+  margin-right: 30px;
+}
+@media (max-width: 991px) {
+  #daum_map .daum_map_address {
+    width: 100%;
+  }
+}

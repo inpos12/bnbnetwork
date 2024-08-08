@@ -1,0 +1,50 @@
+/* slide */
+#Slide {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+#Slide .img_1 {
+  background-image: url(/Web/screen/home/Slide/assets/SLIDE-1.jpg);
+  height: 75vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: 10% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+#Slide .img_2 {
+  background-image: url(/Web/screen/home/Slide/assets/SLIDE-2.jpg);
+  height: 75vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+}
+#Slide .slide_img {
+  transition: all 0.3s linear;
+}
+
+#Slide .prev {
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 50px;
+}
+#Slide .next {
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 50px;
+}
+
+#Slide .slide img {
+  transform: translateX(0%);
+  max-width: 100%;
+}
