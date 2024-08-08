@@ -1,11 +1,11 @@
 $(document).ready(function () {
-  $.get("../Nav/nav.html", function (data) {
+  $.get("/bnbnetwrok/Web/Common/Nav/nav.html", function (data) {
     $("nav").html(data);
   });
-  $.get("../Comming/Comming.html", function (data) {
+  $.get("/bnbnetwrok/Web/Common/Comming/Comming.html", function (data) {
     $("#Comming").html(data);
   });
-  $.get("../Footer/Footer.html", function (data) {
+  $.get("/bnbnetwrok/Web/Common/Footer/Footer.html", function (data) {
     $("footer").html(data);
   });
 });
