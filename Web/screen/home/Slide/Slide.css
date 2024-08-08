@@ -6,7 +6,7 @@
   width: 100%;
 }
 #Slide .img_1 {
-  background-image: url(../assets/SLIDE-1.jpg);
+  background-image: url(./assets/SLIDE-1.jpg);
   height: 75vh;
   width: 100vw;
   background-size: cover;
@@ -16,7 +16,7 @@
   z-index: 2;
 }
 #Slide .img_2 {
-  background-image: url(../assets/SLIDE-2.jpg);
+  background-image: url(./assets/SLIDE-2.jpg);
   height: 75vh;
   width: 100vw;
   background-size: cover;
