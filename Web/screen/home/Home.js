@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $.get("./Web/common/Nav/nav.html", function (data) {
+  $.get("./Web/Common/Nav/nav.html", function (data) {
     $("nav").html(data);
   });
   $.get("./Web/screen/home/Slide/Slide.html", function (data) {
