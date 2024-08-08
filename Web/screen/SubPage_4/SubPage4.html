@@ -12,12 +12,12 @@
     />
 
     <link
-      href="/Web/Common/CommonCSS/Common.css"
+      href="./Web/Common/CommonCSS/Common.css"
       rel="stylesheet"
       type="text/css"
     />
     <link
-      href="/Web/screen/SubPage_4/SubPage4.css"
+      href="./Web/screen/SubPage_1/SubPage1_2.css"
       rel="stylesheet"
       type="text/css"
     />
@@ -39,14 +39,14 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      $.get("/Web/common/Nav/nav.html", function (data) {
+      $.get("./Web/common/Nav/nav.html", function (data) {
         $("nav").html(data);
       });
 
-      $.get("/Web/Common/Comming/Comming.html", function (data) {
+      $.get("./Web/Common/Comming/Comming.html", function (data) {
         $("#Comming").html(data);
       });
-      $.get("/Web/Common/Footer/Footer.html", function (data) {
+      $.get("./Web/Common/Footer/Footer.html", function (data) {
         $("footer").html(data);
       });
     </script>
