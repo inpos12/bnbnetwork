@@ -23,6 +23,7 @@ $(document).ready(function () {
   $.get("/bnbnetwork/Web/screen/home/Section6/Section6.html", function (data) {
     $("#Section6").html(data);
   });
+
   $.get("/bnbnetwork/Web/Common/Footer/Footer.html", function (data) {
     $("footer").html(data);
   });
