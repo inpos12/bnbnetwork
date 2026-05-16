@@ -1,7 +1,7 @@
 # 🥟 BnbNetWork (HTML)
 
 ## 📌 프로젝트 소개
-기존에 React로 제작했던 웹사이트를 HTML과 Bootstrap을 활용해 다시 제작한 반응형 웹사이트입니다.
+ HTML과 Bootstrap을 활용해 제작한 반응형 웹사이트입니다.
  
 ---
 
